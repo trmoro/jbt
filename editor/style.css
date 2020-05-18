@@ -1,0 +1,24 @@
+#jbt_editor
+{
+	position: fixed;
+	width: 256px;
+	margin-left: calc(50% - 128px);
+	bottom: 32px;
+}
+
+#jbt_alert_div
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.jbt_in_edit
+{
+	min-height : 128px;
+	min-width : 128px;
+	background-color : rgba(255,255,255,0.25);
+	border: dashed black;
+	border-width: 1px;
+}

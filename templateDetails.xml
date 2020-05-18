@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site" method="upgrade">
+
+	<name>JBT</name>
+	<version>1.0</version>
+	<creationDate>2020</creationDate>
+	<description>Joomla Bootstrap Template</description>
+	<author>trmoro</author>
+	
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>editor</folder>
+		<folder>sql</folder>
+	</files>
+	
+	<positions>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+			
+			</fieldset>
+		</fields>
+	</config>
+	
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	
+</extension>

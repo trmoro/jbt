@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `#__jbt` (
+	`id` int(10) NOT NULL,
+	`json` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
